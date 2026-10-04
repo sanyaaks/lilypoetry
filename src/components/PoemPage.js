@@ -137,7 +137,7 @@ export function createPoemPage(onBack, onNavigatePoem) {
     renderPoem(poem, allPoems = []) {
       currentPoemData = poem;
       readerTitle.textContent = poem.title;
-      readerDate.textContent = poem.date || '';
+      readerDate.textContent = '';
       readerFolioNum.textContent = poem.number ? `/${poem.number}` : '/01';
       readerCollectionLabel.textContent = poem.collection ? `${poem.collection} —` : 'archive —';
 

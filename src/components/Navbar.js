@@ -1,6 +1,8 @@
+import { AUTHOR } from '../config.js';
+
 /**
  * Navbar Component
- * Desktop: sanya | about | my poems | publications | contact + theme toggle (☀ paper / ☾ night)
+ * Desktop: sanya | about | my poems | publications | mail + theme toggle (☀ paper / ☾ night)
  * Mobile: clean minimalist hamburger overlay
  */
 export function createNavbar(onNavigate) {
@@ -25,7 +27,7 @@ export function createNavbar(onNavigate) {
             <li class="nav-separator">/</li>
             <li><a href="#publications" class="nav-link" data-nav="publications">publications</a></li>
             <li class="nav-separator">/</li>
-            <li><a href="#contact" class="nav-link" data-nav="contact">contact</a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&to=${AUTHOR.email}&su=Hi&body=Hi" target="_blank" rel="noopener noreferrer" class="nav-link" data-nav="contact">contact me</a></li>
           </ul>
         </nav>
 
@@ -46,7 +48,7 @@ export function createNavbar(onNavigate) {
     <a href="#about" class="mobile-nav-link" data-nav="about">about</a>
     <a href="#poems" class="mobile-nav-link" data-nav="poems">my poems</a>
     <a href="#publications" class="mobile-nav-link" data-nav="publications">publications</a>
-    <a href="#contact" class="mobile-nav-link" data-nav="contact">contact</a>
+    <a href="https://mail.google.com/mail/?view=cm&to=${AUTHOR.email}&su=Hi&body=Hi" target="_blank" rel="noopener noreferrer" class="mobile-nav-link" data-nav="contact">contact me</a>
   `;
   document.body.appendChild(mobileOverlay);
 
@@ -72,6 +74,10 @@ export function createNavbar(onNavigate) {
     link.addEventListener('click', (e) => {
       const target = link.getAttribute('data-nav');
       toggleMenu(false);
+      // Let mail links open directly (mailto: or Gmail compose)
+      if (link.href && (link.href.startsWith('mailto:') || link.target === '_blank')) {
+        return; // Don't intercept — let the browser handle it
+      }
       if (onNavigate) {
         onNavigate(target, e);
       }

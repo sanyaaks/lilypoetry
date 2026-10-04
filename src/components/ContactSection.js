@@ -24,7 +24,7 @@ export function createContactSection() {
           if you'd like to reach out, talk about writing, or simply share something you've read here, i'd love to hear from you.
         </p>
         <div class="contact-action-wrap">
-          <a href="mailto:${AUTHOR.email}" class="contact-email-link" aria-label="Send email to Sanya KS">
+          <a href="https://mail.google.com/mail/?view=cm&to=${AUTHOR.email}&su=Hi&body=Hi" target="_blank" rel="noopener noreferrer" class="contact-email-link" aria-label="Send email to Sanya KS">
             <span class="email-text">${AUTHOR.email}</span>
             <span class="email-arrow" aria-hidden="true">&rarr;</span>
           </a>
