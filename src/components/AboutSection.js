@@ -40,7 +40,7 @@ export function createAboutSection(onSelectPoem) {
 
           <div class="hero-tagline-group">
             <span class="hero-hairline"></span>
-            <span class="hero-tagline-text">poetry & unspoken archive</span>
+            <span class="hero-tagline-text">poetry & archive</span>
           </div>
         </div>
 
