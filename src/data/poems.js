@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * SANYA'S POETRY ARCHIVE - COMPLETE DATA STORE (35 POEMS)
+ * SANYA'S POETRY ARCHIVE - COMPLETE DATA STORE (33 POEMS)
  * ============================================================================
  * Sanya's complete poetry collection extracted from desktop archive.
  * Formatting notes:
@@ -276,20 +276,8 @@ export const INITIAL_POEMS = [
     "content": "as every night bleeds,\nI wanna fall into your arms,\npretend like we don’t live forever. \n\nas every wave collides with the pebbles,\nI wanna kiss your salty lips by the beaming sunset,\nact like we’re lost and found by each other.\n\nas every cloud sobs, \nI wanna hold you close,\nwith you hearing my heart which beats so very hard for you.\n\nmy love"
   },
   {
-    "id": "only-fairytales-have-happy-endings",
-    "number": "23",
-    "collection": "heartbreak & memory",
-    "title": "only fairytales have happy endings",
-    "date": "2025",
-    "tag": "illusions",
-    "readingTime": "2 min read",
-    "excerpt": "ah dear, another night...",
-    "coverImage": "/images/poem_pics/poem_pic_23.jpg",
-    "content": "ah dear,\nanother night \ni come online, to see you there harkening to my favorite tunes \n\ni adore our convos\ni adore how we talk about series\ni adore how we talk about songs\ni adore how we share the same music taste \n\na tired day\na tired day filled with tears \na tired day filled with pain \nbut when i see you, my heart finally eases \n\ni always wonder \ni always wonder how beautifully one can express one’s thought in poems\nyet people often misjudge \nthey don’t understand the million memoirs\nthe million broken pieces \nthe million dreamy fancies \nweaved together in these poems \n\ni see other poets \ni wonder how they write so beautifully\nmy heart aches \nmy heart aches to see how people don’t care\nhow people don’t care about my pieces \nout of the 109 only 8 care \nonly 8 care about the feelings\n\nas usual, i set those thoughts aside\ni put my books away \nleaving a hundred incomplete assignments and notes\njust to talk with you\njust to share my interests with you \n\n“only fairytales have happy endings”\nthey say\nbut, hey, let’s prove them wrong\nshow them our love\nour feelings\nour affections \n\na sudden thud i hear\nmy mum wakes me up\n“join the meet”, she says\nand then i realize\ni realize that only fairytales have happy endings"
-  },
-  {
     "id": "perfect-two",
-    "number": "24",
+    "number": "23",
     "collection": "love & longing",
     "title": "perfect two",
     "date": "2025",
@@ -301,7 +289,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "perfectly-wrong",
-    "number": "25",
+    "number": "24",
     "collection": "reflections & shadows",
     "title": "perfectly wrong",
     "date": "2025",
@@ -313,7 +301,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "remember-that-night",
-    "number": "26",
+    "number": "25",
     "collection": "celestial & night",
     "title": "remember that night",
     "date": "2025",
@@ -325,7 +313,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "stay-a-while",
-    "number": "27",
+    "number": "26",
     "collection": "love & longing",
     "title": "stay a while",
     "date": "2025",
@@ -337,7 +325,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "the-fault-in-our-stars",
-    "number": "28",
+    "number": "27",
     "collection": "heartbreak & memory",
     "title": "the fault in our stars",
     "date": "2025",
@@ -349,7 +337,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "the-greatest-love-story",
-    "number": "29",
+    "number": "28",
     "collection": "love & longing",
     "title": "the greatest love story",
     "date": "2025",
@@ -361,7 +349,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "the-mystical-moon",
-    "number": "30",
+    "number": "29",
     "collection": "celestial & night",
     "title": "the mystical moon",
     "date": "2025",
@@ -373,7 +361,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "the-sky",
-    "number": "31",
+    "number": "30",
     "collection": "celestial & night",
     "title": "the sky",
     "date": "2025",
@@ -385,7 +373,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "true-love-does-not-endure",
-    "number": "32",
+    "number": "31",
     "collection": "heartbreak & memory",
     "title": "true love does not endure",
     "date": "2025",
@@ -397,7 +385,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "underwater",
-    "number": "33",
+    "number": "32",
     "collection": "celestial & night",
     "title": "underwater",
     "date": "2025",
@@ -409,7 +397,7 @@ export const INITIAL_POEMS = [
   },
   {
     "id": "we-could-for-an-attachment",
-    "number": "34",
+    "number": "33",
     "collection": "reflections & shadows",
     "title": "we could for an attachment",
     "date": "2025",
@@ -418,17 +406,5 @@ export const INITIAL_POEMS = [
     "excerpt": "had a hundred dreams and places to visit, yet she couldn’t go, which was explicit...",
     "coverImage": "/images/poem_pics/poem_pic_34.jpg",
     "content": "had a hundred dreams and places to visit\nyet she couldn’t go, which was explicit \n\nshe dozed off with those thoughts \nand then found herself in bridgerton \ndancing with the black armoured knight, \nto “we could form an attachment”\nin a huge alcazar, within fireworks and fairy light \na languid whirl with his arms as he brought them in \n\nand then it collapsed \nthey reached the northern lights \na cup of rocky road, one spoon for two\nit made them not lose a sight \nlaying on the grass, gazing at the sky \nwhich ebbed away their midday blues\n\nall at once, the lights fell down \nand they tumbled upon the supertree grove \nat the hours of darkness,\nhow beautifully the coloured lights glowed\nheld each other’s hands and gazed at it \nlater, on their black bicycles they drove\n\nin las vegas they reached\nsat by the withered fountain,\nsnuggled close as they played roulette in the casinos \ntwo glasses of red wine,\nshinning in the reflection of the moon \nwith few roasted jalapenos \n\nat the crack of dawn, sleepy and weary\nadmired the easter islands of chile \ntwo cups of cappuccino,\nviewing the olden pioneers\nas he enfolds his hand in hers \nwhich fades away her sorrow \nthat was awfully sheer \n\nall of it remained a fantasy, \na strong desire to have fun \nand spend some time with her loved one\nshe realized, she slumbered for long \nwoke up and played that song \n“we could form an attachment”"
-  },
-  {
-    "id": "we-ll-be-like-poetry-and-wine",
-    "number": "35",
-    "collection": "celestial & night",
-    "title": "we’ll be like poetry and wine",
-    "date": "2025",
-    "tag": "poetry & wine",
-    "readingTime": "2 min read",
-    "excerpt": "why do you do me like this?, you see me from afar,...",
-    "coverImage": "/images/poem_pics/poem_pic_35.jpg",
-    "content": "Why do you do me like this?\nYou see me from afar,\nDoing things that make me miss, \nWanting me to light those cigars.\n\nMoonlit streets, the paschal which glistens, \nThroughout the night, \nAnd in the sky stars flying with light, \nMaking me miss all my lessons.\n\nSeeing you from afar,\nSmiling and reddening at the sight of you,\nAt the night and throughout the day,\nYou run around my mind even during the midnight dew.\n\nWhen surrounded by mates,\n I seem like a stranger, \nThough when you’re alone, \nYou treat me like Miss Granger. \n\nLike the past two,\nWe’ll end in misery, \nIt took me a month or few, \nTo finally make it history. \n\nSo tell me right now, do you really want me?\nWe’ll be like poetry and wine, \nA magical key, \nTo a world that’d be perfectly fine."
   }
 ];

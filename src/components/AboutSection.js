@@ -58,7 +58,7 @@ export function createAboutSection(onSelectPoem) {
               </div>
             </div>
 
-            <!-- Featured Editorial Card /30 (The Mystical Moon) -->
+            <!-- Featured Editorial Card /29 (The Mystical Moon) -->
             <div class="mosaic-card card-spring" id="heroFeaturedCard01" role="button" tabindex="0" aria-label="Read featured poem: the mystical moon">
               <div class="mosaic-card-inner">
                 <img 
@@ -67,7 +67,7 @@ export function createAboutSection(onSelectPoem) {
                   class="mosaic-card-image"
                   loading="lazy"
                 />
-                <div class="mosaic-card-num">/30</div>
+                <div class="mosaic-card-num">/29</div>
                 <div class="mosaic-card-caption">
                   <span class="caption-title">the mystical moon</span>
                   <span class="caption-line"></span>
@@ -76,7 +76,7 @@ export function createAboutSection(onSelectPoem) {
             </div>
           </div>
 
-          <!-- Right Column: Staggered Card /29 (The Greatest Love Story) -->
+          <!-- Right Column: Staggered Card /28 (The Greatest Love Story) -->
           <div class="mosaic-col mosaic-right">
             <div class="mosaic-card card-autumn" id="heroFeaturedCard02" role="button" tabindex="0" aria-label="Read featured poem: the greatest love story">
               <div class="mosaic-card-inner">
@@ -86,7 +86,7 @@ export function createAboutSection(onSelectPoem) {
                   class="mosaic-card-image"
                   loading="lazy"
                 />
-                <div class="mosaic-card-num">/29</div>
+                <div class="mosaic-card-num">/28</div>
                 <div class="mosaic-card-caption">
                   <span class="caption-title">the greatest love story</span>
                   <span class="caption-line"></span>
